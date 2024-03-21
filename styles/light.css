@@ -12,10 +12,11 @@
   --text-color: #353430;
   --title-color:#353430;
   --border-button-transparent: rgb(255,0,112, 0.4);
-  --title-no-background-color: var(--text-color-light);
-  --button-text-color:var(--text-color-light);
+  --title-no-background-color: var( --title-color);
+  --button-text-color:var( --text-color);
   --decore-display: none;
   --main-background-image: url("../images/cover-image-light.png");
+  --decoration-color: #353430;
 }
 
 .page.theme_light {

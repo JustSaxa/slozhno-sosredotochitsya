@@ -14,5 +14,6 @@
   --button-text-color:var(--accent-color);
   --decore-display: flex;
   --main-background-image: url('../images/cover-image-dark.png');
+  --decoration-color:  #ff0070;
 
 }
