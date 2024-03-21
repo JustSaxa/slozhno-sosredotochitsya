@@ -4,35 +4,40 @@
   переключая тему
 */
 
+:root .theme_light {
+  --accent-color: #FF8DCB;
+  --main-title-color: #FFC2E6;
+  --main-font-family: IBM Plex mono;
+  --main-font-size: 18px;
+  --text-color: #353430;
+  --title-color:#353430;
+  --border-button-transparent: rgb(255,0,112, 0.4);
+  --title-no-background-color: var(--text-color-light);
+  --button-text-color:var(--text-color-light);
+  --decore-display: none;
+  --main-background-image: url("../images/cover-image-light.png");
+}
+
 .page.theme_light {
 
-  --accent-color-light: #FF8DCB;
-  --main-title-color-light: #FFC2E6;
-  --main-font-family-light: IBM Plex mono;
-  --main-font-size-light: 18px;
-  --text-color-light: #353430;
-  --title-color-light:#353430;
-  --main-background-image-light: url("../images/cover-image-light.png");
-  --title-no-background-color-light: var(--text-color-light);
-  --button-text-color-light: var(--text-color-light);
-  --decore-display-light: none;
 
-  
-
-
-  --accent-color: var(--accent-color-light);
-  --main-title-color: var(--main-title-color-light);
-  --main-font-family: var( --main-font-family-light);
-  --main-font-size: var(--main-font-size-light);
-  --text-color: var( --text-color-light);
-  --main-background-image: var(--main-background-image-light);
-  --title-no-background-color: var(--title-no-background-color-light);
-  --button-text-color:var(--button-text-color-light);
-  --decore-display: var(--decore-display-light);
 }
 
 
 
 
-
-
+@media (prefers-color-scheme: light) {
+  :root {
+    --accent-color: #FF8DCB;
+    --main-title-color: #FFC2E6;
+    --main-font-family: IBM Plex mono;
+    --main-font-size: 18px;
+    --text-color: #353430;
+    --title-color:#353430;
+    --border-button-transparent: rgb(255,0,112, 0.4);
+    --title-no-background-color: var(--text-color-light);
+    --button-text-color:var(--text-color-light);
+    --decore-display: none;
+    --main-background-image: url("../images/cover-image-light.png");  
+    }
+}
