@@ -1,12 +1,8 @@
-/* Основные стили проекта. Это стили для темы, которую вы верстаете первой. */
-
 .page {
-  /* сохраните в разметке и стилях класс page. На его основе работает скрипт. */
   display: flex;
   flex-direction: column;
   background-image: var(--main-background-image);
   padding: 0 20px;
-
 }
 
 @media (width <= 768px) {
@@ -14,7 +10,6 @@
     padding: 0 10px;
   }
 }
-
 
 .header {
   height: 768px;
@@ -78,8 +73,9 @@
 }
 
 .header__theme-menu-button:hover {
-  border: 1px solid rgb(255,0,112, 0.4);
-
+  border: 1px solid;
+  border-color: var(--border-button-transparent, 0.4);
+ 
 }
 
 .header__theme-menu-button_active {
@@ -379,7 +375,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  min-height: 668px;
+  min-height: 768px;
   margin-top: 60px;
 }
 
@@ -442,5 +438,3 @@
   background-color: var(--accent-color);
   box-shadow: 0px 0px 4px 2px var(--accent-color);
 }
-
-
