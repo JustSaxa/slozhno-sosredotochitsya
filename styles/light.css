@@ -11,7 +11,7 @@
   --main-font-size: 18px;
   --text-color: #353430;
   --title-color:#353430;
-  --border-button-transparent: rgb(255,0,112, 0.4);
+  --border-button-transparent: rgb(50,49,45, 0.4);
   --title-no-background-color: var( --title-color);
   --button-text-color:var( --text-color);
   --decore-display: none;

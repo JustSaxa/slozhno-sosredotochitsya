@@ -82,9 +82,7 @@
 }
 
 .header__theme-menu-button:hover {
-  border: 1px solid;
-  border-color: var(--border-button-transparent, 0.4);
- 
+  border: 1px solid var(--border-button-transparent);
 }
 
 .header__theme-menu-button_active {
@@ -116,7 +114,7 @@
   font-weight: 700;
   font-size: 18px;
   line-height: 23.4px;
-  margin-left: auto;
+  justify-self: end;
   margin-top: 70px;
 
 }
@@ -176,13 +174,18 @@
 }
 
 .link:hover {
-  text-decoration: underline;
+ border-bottom: 1px solid var(--text-color);
 }
 
 .link:focus {
+  outline: none;
+}
+
+.link:focus-visible {
   outline: 1px solid var(--text-color);
   outline-offset: -1px;
 }
+
 
 @media (width < 768px) {
   .text-one  {
@@ -380,9 +383,8 @@
 
 
 .footer {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  display: grid;
+  position: relative;
   height: 768px;
   margin-top: 60px;
 }
@@ -407,6 +409,8 @@
   line-height: 129.53px;
   text-shadow: 4px 4px 0 var(--accent-color);
   color: var(--main-title-color);
+  justify-self: center;
+  align-self: center;
 }
 
 @media (width <= 425px) {
