@@ -1,13 +1,6 @@
-/*
-  Специально для тёмной темы при наличии класса,
-  здесь окажутся стили, которые нужно переопределить принудительно,
-  переключая тему
-*/
 :root .theme_dark {
   --accent-color: #ff0070;
   --main-title-color: #DB00FF;
-  --main-font-family: IBM Plex mono, monospace;
-  --main-font-size: 18px;
   --text-color: #F1B2CE;
   --title-color:#000028;
   --border-button-transparent: rgb(255,0,112, 0.4);
@@ -17,14 +10,3 @@
   --main-background-image: url('../images/cover-image-dark.png');
   --decoration-color:  #ff0070;
 }
-
-.page.theme_dark {
-  /* сохраните этот селектор в приведённом виде.
-    Так стили написанные ниже будут иметь больший вес,
-    чем стили в медиазапросе предпочтений пользователя
-  */
-}
-
-
-
-

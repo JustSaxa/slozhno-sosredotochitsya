@@ -5,11 +5,11 @@
 :root {
   --accent-color: #ff0070;
   --main-title-color: #DB00FF;
-  --main-font-family: "IBM Plex mono, monospace";
+  --main-font-family: 'IBM Plex mono', monospace;
   --main-font-size: 18px;
   --text-color: #F1B2CE;
   --title-color:#000028;
-  --border-button-transparent: rgb(255,0,112, 0.4);
+  --outline-button-transparent: rgb(255,0,112, 0.4);
   --title-no-background-color: var(--accent-color);
   --button-text-color:var(--accent-color);
   --decore-display: flex;

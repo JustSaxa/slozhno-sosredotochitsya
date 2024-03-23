@@ -10,20 +10,13 @@
   --main-font-size: 18px;
   --text-color: #353430;
   --title-color:#353430;
-  --border-button-transparent: rgb(50,49,45, 0.4);
+  --outline-button-transparent: rgb(50,49,45, 0.4);
   --title-no-background-color: var( --title-color);
   --button-text-color:var( --text-color);
   --decore-display: none;
   --main-background-image: url("../images/cover-image-light.png");
   --decoration-color: #353430;
 }
-
-/* .page.theme_light {
-
-
-}
-
-*/
 
 @media (prefers-color-scheme: light) {
   :root {
@@ -33,7 +26,7 @@
   --main-font-size: 18px;
   --text-color: #353430;
   --title-color:#353430;
-  --border-button-transparent: rgb(50,49,45, 0.4);
+  --outline-button-transparent: rgb(50,49,45, 0.4);
   --title-no-background-color: var( --title-color);
   --button-text-color:var( --text-color);
   --decore-display: none;
