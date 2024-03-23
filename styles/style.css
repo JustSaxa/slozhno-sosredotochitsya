@@ -32,7 +32,6 @@
   }
 }
 
-
 @media (width <= 768px) {
   .header__theme-menu {
     display: flex;
@@ -61,7 +60,6 @@
   }
 }
 
-
 .header__theme-menu-button {
   font-size: var(--main-font-size);
   font-weight: 400;
@@ -75,7 +73,6 @@
   outline: none;
   border-bottom: 1px solid var(--button-text-color);
 }
-
 
 .header__theme-menu-button:focus-visible {
   border-bottom: 1px solid var(--button-text-color);
@@ -139,14 +136,6 @@
   }
 }
 
-
-
-.decorated-zone {
-
-}
-
-
-
 .content {
   margin-top: 60px;
 }
@@ -160,8 +149,6 @@
 .content__block {
   display: grid;
 }
-
-
 
 .text-one {
   grid-template-columns: minmax(236px, 315px) minmax(472px, 1fr);
@@ -186,7 +173,6 @@
   outline-offset: -1px;
 }
 
-
 @media (width < 768px) {
   .text-one  {
     grid-template-columns: minmax(min-content, 236px) minmax(min-content, 472px); 
@@ -199,7 +185,6 @@
     flex-direction: column;
   }
 }
-
 
 .content__title-question {
   font-weight: 700;
@@ -248,7 +233,6 @@
   }
 }
 
-
 .content__title-2 {
   grid-column-start: 1;
   grid-column-end: 4;
@@ -265,8 +249,6 @@
     width: 355px;
   }
 }
-
-
 
 .text-three {
   grid-template-columns: minmax(236px, 315px) minmax(472px, 1fr);
@@ -314,7 +296,6 @@
   }
 }
 
-
 .gallery_image {
   display: grid;
   grid-template-columns: minmax(230px, 1fr) minmax(230px, 1fr) minmax(230px, 1fr);
@@ -348,14 +329,12 @@
   grid-column: 1/3;
 }
 
-
 .ice-cream__img {
   width: 100%;
   height: 100%;
   grid-column: 3/3;
   grid-row: 1/3;
 }
-
 
 .books__img {
   width: 100%;
@@ -372,15 +351,12 @@
   grid-row: 2/4;
 }
 
-
 .street__img {
   width: 100%;
   height: 100%;
   grid-column: 2/4;
   grid-row: 3;
 }
-
-
 
 .footer {
   display: grid;
@@ -402,7 +378,6 @@
   }
 }
 
-
 .footer__title {
   font-weight: 700;
   font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
@@ -418,7 +393,6 @@
     font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
   }
 }
-
 
 .decore {
   display: var(--decore-display);
@@ -440,7 +414,6 @@
     top: 10px;
   }
 }
-
 
 .decore::after {
   content: "";
@@ -469,7 +442,6 @@
   inset-block-end:10px;
   }
 }
-
 
 
 .decorated-zone::before {

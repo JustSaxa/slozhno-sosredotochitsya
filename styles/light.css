@@ -3,7 +3,6 @@
   Здесь окажутся стили, которые нужно переопределить принудительно,
   переключая тему
 */
-
 :root .theme_light {
   --accent-color: #FF8DCB;
   --main-title-color: #FFC2E6;
@@ -19,13 +18,12 @@
   --decoration-color: #353430;
 }
 
-.page.theme_light {
+/* .page.theme_light {
 
 
 }
 
-
-
+*/
 
 @media (prefers-color-scheme: light) {
   :root {
